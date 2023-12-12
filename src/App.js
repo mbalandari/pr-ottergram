@@ -10,6 +10,7 @@ function App() {
     <div>
       <header className='header-component'>
         <h1>Ottergram</h1>
+        <p>All about Otters</p>
       </header>
       <ul className='post-list'>
         <li className='post-component'>
