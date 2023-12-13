@@ -11,6 +11,13 @@ body {
   width: 100%;
 }
 
+.footer-component {
+  background: white;
+  text-align: center;
+  padding: 1.5em;
+  width: 100%;
+}
+
 .post-list {
   padding: 0 10px;
   margin: 0;
