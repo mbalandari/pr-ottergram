@@ -1,9 +1,9 @@
-const Post = (props) => {
+const Post = ({ image, name }) => {
     return (
         <li className='post-component'>
             <button>
-                <img src={props.image} alt={props.name} />
-                <p>{props.name}</p>
+                <img src={image} alt={name} />
+                <p className="post-name">{name}</p>
             </button>
         </li>
     )
